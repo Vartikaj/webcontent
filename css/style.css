@@ -1,0 +1,37 @@
+@font-face{
+	src:url('../fontfamily/Carter_one/CarterOne-Regular.ttf');
+	font-family: 'CarterOne';
+}
+@font-face{
+	src:url('../fontfamily/Roboto/Roboto-Medium.ttf');
+	font-family: 'Roboto-Medium';
+}
+
+h2{
+	font-family: 'CarterOne';
+}
+
+
+*{margin:0px;padding:0px;font-family: 'Roboto-Medium'}
+
+body form{margin-bottom: 60px;background-color: #016d98;display: flex;padding: 20px;color: #fff;}
+.from,.to,.date,.seats{font-size: 14px;display: flex;flex-wrap: wrap;width: 14%;margin-right: 10px;margin-left:10px;}
+.from label:first-child,.to label:first-child{width: 49%;margin-right: 17%;}
+.from label:nth-child(2),.to label:nth-child(2){width: 25%;text-align: end;}
+.from input[type="checkbox"],.to input[type="checkbox"]{margin: 0px;margin-left: 3px;margin-top: 3px;}
+.from input#state,.to input#stateTo{width: 100%;}
+form i{margin-top: 23px;}
+.date {justify-content: center;}
+.date input[type="checkbox"]{margin-top: 3px;margin-left: 7px;}
+.date input[type="date"]{width: 100%;}
+.seats{width:32%;}
+.seats label,.seats input[type="checkbox"]{width: 25%;}
+.seats select{width: 50%;}
+#btn_1{    border-radius: 5px;text-transform: uppercase;padding: 8px;text-align: center;border: 0px;background-color: #c1ffc1;color: #0000ff;margin-right: 10px;}
+#btn_2{border: 0px;color: #fff;background-color: transparent;text-decoration: underline;}
+h2{text-align: center;margin-bottom: 40px;text-transform: uppercase;letter-spacing: 0px;font-size: 32px;}
+table{width: 80%;margin: 0px auto;text-align: center;}
+table td{padding: 6px;}
+table tr th{color: #ffffff;background-color: #b1a111;padding: 15px;text-transform: capitalize;letter-spacing: 1px;font-size: 18px;}
+table tr:nth-child(even){background-color: #d8cf7f}
+table tr:nth-child(odd){background-color:#fff7b1}
